@@ -1072,8 +1072,9 @@ def cmd_restore(args: argparse.Namespace) -> int:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="tidalcleanup",
-        description="Find Tidal playlists that are really just albums, and turn them "
-        "into saved albums instead.",
+        description="Tidy up a Tidal library: turn playlists that are really just "
+        "albums into saved albums, triage the rest, upgrade albums to Dolby Atmos, "
+        "scrub advertising from playlist descriptions, and change visibility in bulk.",
     )
     parser.add_argument("--version", action="version", version=__version__)
     sub = parser.add_subparsers(dest="command", required=True)
