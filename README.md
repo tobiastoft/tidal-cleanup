@@ -1,11 +1,7 @@
-# tidalcleanup version 1.0
+# Tidal Cleanup
 
-Copyright 2026, Tobias Toft. Released under the MIT license.
-
-* Thanks to the maintainers of tidalapi, which handles authentication
-https://github.com/tamland/python-tidal
-
-3 October 2026
+_Thanks to the maintainers of tidalapi, which handles authentication:_
+_https://github.com/tamland/python-tidal_
 
 ## Description
 
