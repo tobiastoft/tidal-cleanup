@@ -1,0 +1,4 @@
+#!/bin/sh
+# Thin wrapper so the tool runs from its own virtualenv.
+DIR=$(cd "$(dirname "$0")" && pwd)
+exec "$DIR/.venv/bin/python" -m tidal_cleanup.cli "$@"
